@@ -1,0 +1,59 @@
+.aboutSection{
+    width: 100%;
+}
+
+.profileImg{
+    height: 19rem;
+    width: 19rem;
+    min-width: 200px;
+    border-radius: 8px;
+    position: relative;
+    bottom: 1rem;
+    right: 1rem;
+    filter: grayscale(100%);
+
+}
+.content{
+    text-align: left;
+    height: fit-content;
+}
+
+.para{
+    color: #ccd6f6c4;
+}
+
+.headingRow{
+    margin-bottom: 50px;
+}
+
+.overlay{
+    background-color: #64ffdb50;
+    height: 19rem;
+    width: 19rem;
+    position: relative;
+    top: -19rem;
+    right: 0rem;
+    border-radius: 8px;
+
+}
+.overlay:hover{
+    background-color: transparent;
+}
+.outline{
+    height: 19rem;
+    width: 19rem;
+    border: 3px solid #64ffda; 
+    border-radius: 8px;
+    box-shadow: 0 0 20px #64ffda;
+
+}
+
+.txtContent{
+    min-width: 30vw;
+    margin-bottom: 50px;
+}
+.imgContent{
+display:flex ;
+flex-direction: column;
+align-items: center;}
+

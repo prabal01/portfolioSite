@@ -1,0 +1,34 @@
+.workExpContainer{
+    height: 100vh;
+    width: 100%;
+    margin-top: 200px;
+}
+
+.companyNamebtn{
+  height: 30px;
+  border-right: 2px solid gray;
+  color: #ccd6f6c4;
+  min-width: 150px;
+  text-align: left;
+}
+
+.active{
+  border-right: 2px solid #64ffda;
+}
+
+@media only screen and (max-width: 575px) {
+.companyNamesDiv{
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+.companyNamebtn{
+  border-right: none;
+  border-bottom: 2px solid gray;
+}
+.active{
+  border-right: none;
+  border-bottom: 2px solid #64ffda;
+}
+}

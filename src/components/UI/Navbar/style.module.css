@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap");
+
+.menuOption{
+    color: #ccd6f6;
+}
+.menuOption:hover {
+  color: #64ffda;
+}
+.number {
+  color: #64ffda;
+  font-family: "Fira Code", monospace;
+  font-size: small;
+}
+.CNavbar{
+position: sticky;
+top: 0;
+z-index: 2;
+}
+
+
+

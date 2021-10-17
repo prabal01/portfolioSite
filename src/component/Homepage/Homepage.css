@@ -1,0 +1,100 @@
+.titleText {
+  font-weight: 800;
+  font-size: 4rem;
+  color: #fff;
+  width: fit-content;
+}
+
+.headerContent {
+  position: absolute;
+  top: 3%;
+  padding-left: 50px;
+  width: fit-content;
+  text-align: left;
+}
+.homepageContainer {
+  margin: 0;
+  padding: 0;
+}
+.name {
+  color: #ea0f1e;
+  /* color: #0d6efd; */
+}
+
+.textAndButtons {
+  width: fit-content;
+}
+
+p {
+  color: white;
+  font-size: x-large;
+}
+
+.particlesBackground {
+  background-color: black;
+  z-index: 5;
+}
+
+/* Button Style */
+.buttonContainer {
+  margin-top: 20px;
+  width: fit-content;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+  flex-wrap: wrap;
+}
+.contactBtn {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+
+@media (min-width: 391px) {
+  .contactBtn{
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+
+  .titleText{
+    font-size: 5rem;
+  }
+
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 486px) {
+  .buttonContainer {
+    margin-top: 50px;
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    flex-wrap: wrap;
+  }
+  .headerContent {
+    top: 20%;
+  }
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .headerContent {
+    top: 20%;
+  }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}

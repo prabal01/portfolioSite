@@ -1,0 +1,74 @@
+.navIcon {
+  color: white;
+  position: fixed;
+  right: 34px;
+  top: 20px;
+  font-size: 3rem;
+  z-index: 4;
+
+  /* animation */
+  -webkit-animation-name: navIcon;
+  animation-name: navIcon;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes navIcon {
+  0% {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, -200deg);
+    transform: rotate3d(0, 0, 1, -200deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1;
+  }
+}
+@keyframes navIcon {
+  0% {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, -200deg);
+    transform: rotate3d(0, 0, 1, -200deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.navMenu{
+    color:white;
+    height: 100vh;
+    width: 100vw;
+}
+.navMenuItems{
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+
+
+
+
+.navItemDiv:hover{
+    color:#ffc107;
+}
+
+.navItem:hover{
+    font-size: 3rem;
+}
