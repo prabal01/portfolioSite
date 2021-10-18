@@ -1,18 +1,31 @@
 .aboutSection{
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .profileImg{
-    height: 19rem;
-    width: 19rem;
+    height: 17rem;
+    width: 17rem;
     min-width: 200px;
     border-radius: 8px;
     position: relative;
     bottom: 1rem;
     right: 1rem;
     filter: grayscale(100%);
+    transition: .5s;
+    border: 1px solid #64ffdb65;
 
 }
+.profileImg:hover{
+    bottom: 1.5;
+    right: 1.5;
+    height: 16.5rem;
+    width: 16.5rem;
+}
+
 .content{
     text-align: left;
     height: fit-content;
@@ -28,10 +41,10 @@
 
 .overlay{
     background-color: #64ffdb50;
-    height: 19rem;
-    width: 19rem;
+    height: 17rem;
+    width: 17rem;
     position: relative;
-    top: -19rem;
+    top: -17rem;
     right: 0rem;
     border-radius: 8px;
 
@@ -40,11 +53,12 @@
     background-color: transparent;
 }
 .outline{
-    height: 19rem;
-    width: 19rem;
-    border: 3px solid #64ffda; 
+    height: 17rem;
+    width: 17rem;
+    border-right: 3px solid #64ffda; 
+    border-bottom: 3px solid #64ffda; 
     border-radius: 8px;
-    box-shadow: 0 0 20px #64ffda;
+    box-shadow: 8px 8px 20px #64ffda;
 
 }
 

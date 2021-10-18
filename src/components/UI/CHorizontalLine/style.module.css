@@ -1,0 +1,14 @@
+hr{
+    color: #64ffda;
+    border: 1px dashed #64ffda;
+    width: 10%;
+    box-shadow: 0 0 20px #64ffda;
+}
+.holder{
+    width:100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

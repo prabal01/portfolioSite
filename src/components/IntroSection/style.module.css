@@ -1,6 +1,6 @@
 .IntroSection {
   text-align: left;
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   display: flex;
   align-items: left;
@@ -41,14 +41,6 @@
   height: 90vh;
   width: 100%;
 }
-.contactMeBtn {
-  padding: 16px 48px;
-  position: relative;
-  top: 0px;
-  z-index: 2;
-  margin-top: 90px;
-  box-shadow: 0 0 20px #64ffda;
-}
 
 .outline{
   height: 58px;
@@ -58,11 +50,19 @@
   left: .7rem;
   z-index: -1;
   border-radius: 4px;
-  box-shadow: 0 0 20px #64ffda;
-  border: 3px solid #64ffda;
+  border-right: 3px solid #64ffda;
+  border-bottom: 3px solid #64ffda;
+  box-shadow: 8px 8px 20px #64ffda;
 }
-/* @media only screen and (max-width: 420px) {
-  .IntroSection {
-    text-align: center;
+@media only screen and (max-width: 550px) {
+
+  .name{
+    line-height: 1;
   }
-} */
+  .iDo{
+    line-height: 1;
+  }
+  .IntroPara{
+    margin-bottom: 0;
+  }
+}

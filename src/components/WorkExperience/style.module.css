@@ -1,19 +1,24 @@
 .workExpContainer{
-    height: 100vh;
+    min-height: 80vh;
     width: 100%;
-    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .companyNamebtn{
   height: 30px;
   border-right: 2px solid gray;
-  color: #ccd6f6c4;
+  color: #ccd6f6;
   min-width: 150px;
   text-align: left;
+  font-size: small;
 }
 
 .active{
   border-right: 2px solid #64ffda;
+  color: #64ffda;
 }
 
 @media only screen and (max-width: 575px) {
@@ -26,9 +31,29 @@
 .companyNamebtn{
   border-right: none;
   border-bottom: 2px solid gray;
+  padding-left: 30px;
+
 }
 .active{
   border-right: none;
   border-bottom: 2px solid #64ffda;
 }
+.workExpContainer{
+  margin-top: 100px;
+}
+}
+
+.companyName{
+  text-decoration: none;
+  color: #64ffda;
+}
+
+.companyName:hover{
+  color: #64ffda;
+  text-shadow: 0 0 20px#64ffda;
+}
+
+.time{
+  font-size: small;
+  color: #64ffda;
 }
