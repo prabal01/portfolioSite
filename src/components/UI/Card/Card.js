@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Container, Row, Card } from "react-bootstrap";
-import Project1Img from "./../../Projects/Project1.png";
 import style from "./style.module.css";
 
 export default function CCard() {
@@ -8,29 +7,21 @@ export default function CCard() {
     {
       title: "Snapbook",
       techUsed:'React, Firebase, Styled-Components',
-      img: Project1Img,
-      desc: "A web app where user can create a new chat room or participate in the existing chat room </li></li> Created Frontend using ReactJs and styled using CSS </li> </li> Built authentication system using firebase.</li>",
+      desc: "A webapp  where user can create, edit and update the Image post. User can also view other people's post",
     },
     {
       title: "ChatBox (WhatsApp Clone)",
       techUsed:'React, Firebase, Styled-Components',
-      img: Project1Img,
       link:'https://whatsapp-colne-869b7.web.app/',
       gitHub:' https://github.com/prabal01/whatsapp-clone',
-      desc: "A web app where user can create a new chat room or participate in the existing chat room > Created Frontend using ReactJs and styled using CSS > Built authentication system using firebase.",
+      desc: "A web app where user can create a new chat room or participate in the existing chat room. Created using ReactJs and styled using CSS. Built authentication system using firebase.",
     },
     {
       title: "Filterbar",
       techUsed:'Chat Rooms App',
-      img: Project1Img,
-      desc: "A web app where user can create a new chat room or participate in the existing chat room > Created Frontend using ReactJs and styled using CSS > Built authentication system using firebase.",
+      desc: "A simple Api based react app which can filter result on the basis of different options and show the results with pagination.",
     },
-    {
-      title: "asdlfj",
-      techUsed:'Chat Rooms App',
-      img: Project1Img,
-      desc: "A web app where user can create a new chat room or participate in the existing chat room > Created Frontend using ReactJs and styled using CSS > Built authentication system using firebase.",
-    },
+
   ];
   return (
     <>
@@ -53,13 +44,16 @@ export default function CCard() {
               <Card.Text className={style.desc}>
                 {project.desc}
               </Card.Text>
-              <Card.Link href={project.gitHub} target="_blank">
+              
+            </Card.Body>
+            <Card.Footer>
+            <Card.Link href={project.gitHub} target="_blank">
                 <i className={`fab fa-github ${style.icon}`}></i>
               </Card.Link>
               {project.link && <Card.Link href={project.link} target="_blank">
                 <i className={`fas fa-external-link-alt ${style.icon}`}></i>
               </Card.Link>}
-            </Card.Body>
+            </Card.Footer>
           </Card>
         ))}
       </Row>

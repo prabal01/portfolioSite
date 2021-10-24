@@ -66,3 +66,9 @@
     margin-bottom: 0;
   }
 }
+
+.downloadButton{
+position: relative;
+left: 1rem;
+bottom: 1rem;
+}

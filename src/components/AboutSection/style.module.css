@@ -71,3 +71,17 @@ display:flex ;
 flex-direction: column;
 align-items: center;}
 
+.coloredTxt{
+    text-decoration: none;
+    color: #64ffda;
+  }
+  .coloredTxt:hover{
+    color: #64ffda;
+  }
+
+.progressBar div{
+    background-color: #64ffda;
+}
+.skills{
+    color: #ccd6f6;
+}

@@ -17,19 +17,19 @@ export default function Intro() {
         <h1 className={style.name}>Prabal Saxena.</h1>
         </SmoothList>
         <SmoothList delay='1700'>
-        <h1 className={style.iDo}>I convert coffee into code.</h1>
+        <h1 className={style.iDo}>I am a Full Stack Developer.</h1>
         </SmoothList>
         <SmoothList delay='1800'>
         <p className={style.IntroPara}>
-          Lorem ex culpa eu sunt in consequat quis consequat elit nulla. Aliqua
-          amet in minim qui laboris enim tempor aute. Velit id minim ex
-          excepteur. Nisi veniam culpa Lorem nisi deserunt.
+         and I am currenty working as a Software Engineer @KreditBee.<br/>
         </p>
         </SmoothList>
         <SmoothList delay='1900'>
+        <a href="#Contact">
         <CButton mt='50px' pd='16px 48px'>
             Contact Me!
         </CButton>
+        </a>
       </SmoothList>
       <SmoothList delay='1600'>
         <div className={style.outline}></div>
